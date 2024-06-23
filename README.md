@@ -2,9 +2,14 @@
 
 This Streamlit web application predicts whether a person's income exceeds $50K/year based on various demographic features. The app uses a Random Forest classifier trained on the [Adult Income dataset](https://archive.ics.uci.edu/ml/datasets/adult) from the UCI Machine Learning Repository.
 
+This model can be useful depending on scenarios:
+
+- **Healthcare**: This could enable healthcare institutions to study the data of older population and develop targeted health plans for them.
+- **Risk Management**: Insurance companies can use this model to look out for people with more risk, which could influence premium rate or loan terms.
+
 ## Dataset Information
 
-The dataset was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker. It contains a set of reasonably clean records selected using the conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). The prediction task is to determine whether a person makes over $50K a year.
+The dataset was extracted from the 1994 Census bureau database. I have handled the '?' in the dataset with 'NA' . The prediction task is to determine whether a person makes over $50K a year.
 
 ### Features
 
